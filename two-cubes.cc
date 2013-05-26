@@ -1,4 +1,5 @@
-/* Compile with:
+/*
+ * Compile with:
  * g++ -o two-cubes -Wall -Wextra -std=c++11 two-cubes.cc
  */
 
