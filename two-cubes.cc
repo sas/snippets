@@ -59,7 +59,8 @@ main(int argc, char **argv)
     << (std::all_of(primes.begin(), primes.end(),
                     [](const std::pair<uint32, uint32>& e){
                       return e.second % 3 == 0;
-                    }) ? "yes" : "no")
+                    }) && primes.size() >= 2
+        ? "yes" : "no")
     << "."
     << std::endl;
 
