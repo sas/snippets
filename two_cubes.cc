@@ -1,6 +1,6 @@
 /*
  * Compile with:
- * g++ -o two-cubes -Wall -Wextra -std=c++11 two-cubes.cc
+ * g++ -o two_cubes -Wall -Wextra -std=c++11 two_cubes.cc
  */
 
 #include <algorithm>
